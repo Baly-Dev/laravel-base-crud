@@ -1,0 +1,51 @@
+#first-section{
+    padding: 60px 0px;
+    .comic{
+        .head{
+            .title{
+                margin-bottom: 20px;
+                font-size: 5em;
+            }
+        }
+
+        .body{
+            display: flex;
+            gap: 15px;
+
+            .thumb{
+                min-height: 500px;
+                border-radius: 6px;
+                border: 4px solid black;
+            }
+
+            .text{
+                margin: 15px 0px;
+                font-size: 1.3em;
+                text-align: justify;
+            }
+
+            .info{
+                h3{
+                    font-size: 1.6em;
+                    color: #262626;
+                    font-weight: 500;
+                    display: inline;
+                }
+            }
+
+            .edit{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                a{
+                    background-color: #262626;
+                    color: #fff;
+                    font-weight: 500;
+                    padding: 10px 15px;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+}

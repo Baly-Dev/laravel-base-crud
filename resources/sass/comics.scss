@@ -1,0 +1,58 @@
+@import './partials/first_section.scss';
+
+#second-section{
+    padding-bottom: 40px;
+}
+
+.comic-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comic-record{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    .comic-attribute{
+        width: calc(100% / 6.5);
+        height: 120px;
+        padding: 10px;
+        border: 2px solid #cacaca;
+        color: #262626;
+
+        h5{
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .actions{
+            display: flex;
+            flex-direction: column;
+
+            a{
+                color: #262626;
+                font-weight: 600;
+                font-size: 0.8em;
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+
+            .delete{
+                color: rgb(217, 0, 0);
+                &:hover{
+                    color: rgb(182, 0, 0);
+                }
+            }
+            
+            .show{
+                color: rgb(0, 152, 234);
+                &:hover{
+                    color: rgb(3, 121, 184);
+                }
+            }
+            
+        }
+    }
+}

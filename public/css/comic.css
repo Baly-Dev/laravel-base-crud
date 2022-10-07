@@ -1,0 +1,39 @@
+#first-section {
+  padding: 60px 0px;
+}
+#first-section .comic .head .title {
+  margin-bottom: 20px;
+  font-size: 5em;
+}
+#first-section .comic .body {
+  display: flex;
+  gap: 15px;
+}
+#first-section .comic .body .thumb {
+  min-height: 500px;
+  border-radius: 6px;
+  border: 4px solid black;
+}
+#first-section .comic .body .text {
+  margin: 15px 0px;
+  font-size: 1.3em;
+  text-align: justify;
+}
+#first-section .comic .body .info h3 {
+  font-size: 1.6em;
+  color: #262626;
+  font-weight: 500;
+  display: inline;
+}
+#first-section .comic .body .edit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#first-section .comic .body .edit a {
+  background-color: #262626;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 6px;
+}

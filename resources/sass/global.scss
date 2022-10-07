@@ -1,0 +1,42 @@
+/* reset */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* imports */
+@import './partials/header.scss';
+
+/* globals */
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* utilities */
+.container-large{
+    width: 100%;
+    padding: 0 40px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+fieldset{
+    margin-bottom: 10px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,29 @@
+header{
+    height: 60px;
+    border-bottom: 1px solid #dddd;
+
+    nav{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo a{
+            color: #262626;
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+
+        .menu{
+            display: flex;
+            gap: 15px;
+            margin-left: auto;
+
+            a{
+                color: #262626;
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

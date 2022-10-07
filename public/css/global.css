@@ -1,0 +1,66 @@
+/* reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* imports */
+header {
+  height: 60px;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.8666666667);
+}
+header nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo a {
+  color: #262626;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+header nav .menu {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+header nav .menu a {
+  color: #262626;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* globals */
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* utilities */
+.container-large {
+  width: 100%;
+  padding: 0 40px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+}

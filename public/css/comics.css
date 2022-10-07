@@ -1,0 +1,56 @@
+#first-section {
+  padding: 60px 0px;
+}
+#first-section div {
+  text-align: center;
+}
+
+#second-section {
+  padding-bottom: 40px;
+}
+
+.comic-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comic-record {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.comic-record .comic-attribute {
+  width: 15.3846153846%;
+  height: 120px;
+  padding: 10px;
+  border: 2px solid #cacaca;
+  color: #262626;
+}
+.comic-record .comic-attribute h5 {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+.comic-record .comic-attribute .actions {
+  display: flex;
+  flex-direction: column;
+}
+.comic-record .comic-attribute .actions a {
+  color: #262626;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.comic-record .comic-attribute .actions .delete {
+  color: rgb(217, 0, 0);
+}
+.comic-record .comic-attribute .actions .delete:hover {
+  color: rgb(182, 0, 0);
+}
+.comic-record .comic-attribute .actions .show {
+  color: rgb(0, 152, 234);
+}
+.comic-record .comic-attribute .actions .show:hover {
+  color: rgb(3, 121, 184);
+}
