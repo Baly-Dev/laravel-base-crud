@@ -23,7 +23,7 @@
         <h5>Actions</h5>
         <div class="actions">
             <a href="{{route('comics.show', $comic->id)}}" class="show">Show</a>
-            <a href="#" class="delete">Delete</a>
+            @include('components.comic_delete_form')
         </div>
     </div>
 </li>

@@ -12,7 +12,7 @@
     </section>
     <section id="second-section">
         <div class="container">
-            @include('components.comic_update_form')
+            @include('components.comic_create_form')
         </div>
     </section>
 @endsection
