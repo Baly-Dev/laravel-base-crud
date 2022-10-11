@@ -64,3 +64,15 @@ fieldset {
   display: flex;
   flex-direction: column;
 }
+
+.errors-group {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.errors-group .error {
+  color: red;
+  font-weight: 500;
+  font-size: 0.9;
+  margin-bottom: 10px;
+}

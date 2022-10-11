@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class RouteManager extends Controller
 {
     public function home(){
-        return view('home');
+        return redirect()->route('comics.index');
     }
     
     public function about(){

@@ -1,0 +1,24 @@
+form{
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid #dddd;
+    border-radius: 6px;
+    padding: 20px;
+
+    fieldset{
+        margin-bottom: 15px;
+    }
+
+    label{
+        margin-bottom: 5px;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    input,
+    textarea{
+        padding: 12px 15px;
+        border: 2px solid #dddd;
+        border-radius: 6px;
+    }
+}

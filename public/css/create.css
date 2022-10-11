@@ -4,3 +4,39 @@
 #first-section div {
   text-align: center;
 }
+
+form {
+  width: 800px;
+  margin: 0 auto;
+  border: 2px solid rgba(221, 221, 221, 0.8666666667);
+  border-radius: 6px;
+  padding: 20px;
+}
+form fieldset {
+  margin-bottom: 15px;
+}
+form label {
+  margin-bottom: 5px;
+  font-size: 1em;
+  font-weight: 500;
+}
+form input,
+form textarea {
+  padding: 12px 15px;
+  border: 2px solid rgba(221, 221, 221, 0.8666666667);
+  border-radius: 6px;
+}
+
+#second-section {
+  padding-bottom: 40px;
+}
+
+.btn {
+  border: 1px solid #262626;
+  background-color: #262626;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,1 +1,16 @@
 @import './partials/first_section.scss';
+@import './partials/form.scss';
+
+#second-section{
+    padding-bottom: 40px;
+}
+
+.btn{
+    border: 1px solid #262626;
+    background-color: #262626;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}

@@ -21,7 +21,7 @@
                         </div>
                         <p class="text">{{$comic->description}}</p>
                         <div class="edit">
-                            <h4>Price: {{$comic->price}}</h4>
+                            <h4>Price: €{{$comic->price}}</h4>
                             <a href="{{route('comics.edit', ['comic' => $comic->id])}}">Edit</a>
                         </div>
                     </div>

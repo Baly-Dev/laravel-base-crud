@@ -2,6 +2,7 @@
 
 @section('title', 'Update')
 @section('css')
+    <link rel="stylesheet" href="{{asset('css/create.css')}}">
 @endsection
 @section('content')
     <section id="first-section">

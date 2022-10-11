@@ -36,5 +36,5 @@
         <input type="text" name="type" id="" value="{{$comic->type}}">
     </fieldset>
 
-    <button type="submit">Conferma</button>
+    <button class="btn" type="submit">Conferma</button>
 </form>

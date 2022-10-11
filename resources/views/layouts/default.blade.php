@@ -19,6 +19,13 @@
 
         @include('partials.header')
         <main>
+
+            <ul class="errors-group">
+            @foreach($errors->all() as $error)
+                <li class="error">{{$error}}</li>
+            @endforeach
+            </ul>
+
             @yield('content')
         </main>
     </body>
